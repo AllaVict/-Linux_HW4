@@ -1,0 +1,8 @@
+   0 vi /tmp/f.txt
+   1 df -h | head -3 > /tmp/f.txt
+   2 cat /tmp/f.txt
+   3 chmod u-r,g+w,o+x /tmp/f.txt
+   4 ls -l /tmp/f.txt
+   5 chmod 265 /tmp/f.txt
+   6 ls -l /tmp/f.txt
+   7 history > history.txt | export_file /tmp/f.txt history.txt
